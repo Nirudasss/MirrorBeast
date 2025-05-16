@@ -32,9 +32,9 @@ async def start(_, message):
     lang = Language()
     buttons = ButtonMaker()
     buttons.url_button(
-        lang.START_BUTTON1, "https://github.com/MirrorBeast/MirrorBeast"
+        lang.START_BUTTON1, "https://t.me/PRESIDENTIND7"
     )
-    buttons.url_button(lang.START_BUTTON2, "https://t.me/MirrorBeast")
+    buttons.url_button(lang.START_BUTTON2, "https://t.me/Radha_Rani_Backup")
     reply_markup = buttons.build_menu(2)
 
     if len(message.command) > 1 and message.command[1] == "beast":
